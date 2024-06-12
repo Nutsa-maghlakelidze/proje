@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block title %}
+Menu
+{% endblock %}
+
+{% block content %}
+<div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom">Menu:</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <img src="{{ url_for('static', filename='images/xinkali.png') }}" class="img-fluid" alt="Restaurant Image" style="height: 250px">
+        </div>
+        <h2>ხინკალი</h2>
+        <p><b>ფასი:</b>10ლარი</p>
+        <p><b>კალორია:</b>100გ - 60კკალ</p>
+        <p><b>პორცია:</b> 10ცალი, 50ცალი,  99ცალი</p>
+        <a href="#" class="icon-link">
+
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <img src="{{ url_for('static', filename='images/awaruli.png') }}" class="img-fluid" alt="Restaurant Image" style="height: 250px">
+        </div>
+        <h2>აჭარული ხაჭაპური</h2>
+        <p><b>ფასი:</b>15ლარი</p>
+        <p><b>კალორია:</b>100გ - 280კკალ</p>
+        <p><b>პორცია: </b>პატარა, საშუალო, დიდი, ტიტანიკი</p>
+        <p>ცომგამოცლილი, ცომგამოუცლელი</p>
+        <a href="#" class="icon-link">
+
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <img src="{{ url_for('static', filename='images/mwvadi.png') }}" class="img-fluid" alt="Restaurant Image" style="height: 250px">
+        </div>
+        <h2>მწვადი</h2>
+        <p><b>ფასი:</b>შამფური - 13.99ლარი</p>
+        <p><b>კალორია:</b>100გ - 261კკალ</p>
+
+
+      </div>
+    </div>
+  </div>
+ <div class="container px-4 py-5" id="featured-3">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <img src="{{ url_for('static', filename='images/xawapuri.png') }}" class="img-fluid" alt="Restaurant Image" style="height: 250px">
+        </div>
+        <h2>ხაჭაპური</h2>
+        <p><b>ფასი:</b>7.34ლარი</p>
+        <p><b>კალორია:</b>100გ - 200კკალ</p>
+        <p><b>პორცია: </b>პატარა, საშუალო, დიდი</p>
+        <a href="#" class="icon-link">
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <img src="{{ url_for('static', filename='images/churchxela.png') }}" class="img-fluid" alt="Restaurant Image" style="height: 250px">
+        </div>
+        <h2>ჩურჩხელა</h2>
+        <p><b>ფასი:</b>7.34ლარი</p>
+        <p><b>კალორია:</b>100გ - 68კკალ</p>
+
+
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <img src="{{ url_for('static', filename='images/gozinayi.png') }}" class="img-fluid" alt="Restaurant Image" style="height: 250px">
+        </div>
+        <h2>გოზინაყი</h2>
+        <p><b>ფასი:</b>7.39ლარი</p>
+        <p><b>კალორია:</b>100გ - 67კკალ</p>
+        <a href="#" class="icon-link">
+
+        </a>
+      </div>
+    </div>
+  </div>
+{% endblock %}

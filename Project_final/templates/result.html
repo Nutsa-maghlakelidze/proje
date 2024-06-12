@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Result{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="alert alert-info" role="alert">
+        {{ msg }}
+    </div>
+    <a href="{{ url_for('home') }}" class="btn btn-primary">Go Back Home</a>
+    <a href="{{ url_for('list_meals') }}" class="btn btn-secondary">View All Meals</a>
+</div>
+{% endblock %}
